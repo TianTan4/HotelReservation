@@ -10,7 +10,7 @@ export default class Services extends Component {
         },
         {
             icon:<BsFillEyeFill/>,
-            title:"Easy- approach search engine",
+            title:"Comprehensive search engine",
             info:"We offer various preference options for customers so that they can find their desirable rooms in a short time and it will help customers filter those unwanted rooms."
         },
         {

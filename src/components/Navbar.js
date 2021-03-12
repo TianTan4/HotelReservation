@@ -26,13 +26,34 @@ export default class Navbar extends Component {
            </button> 
             </div> 
             
-            <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
+            <ul className={this.state.isOpen?"nav-links show-nav ":"nav-links"}>
                 <li>
                     <Link to="/">Home</Link>
                     </li>
                     <li>
                     <Link to="/rooms">Rooms</Link>
                 </li>
+                <li>
+                <Link to='/'>Sign Up</Link>
+                </li>
+                <li>
+                <Link to='/'>Sign In</Link>
+                </li>
+                <li>
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
             </ul> 
               </div>
             </nav>
