@@ -243,7 +243,9 @@ li {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  background: url('./images/resort7.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   text-align: center;
 }
 .services-center {
